@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project Website Portfolio</title>
+    <link rel="icon" href="img/pexel-coder-avatar-logo.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <!-- Header element -->
+    <header>        
+        <img src="img/pexel-coder-avatar.jpg">
+        <h1 id="Developer">I am <span>Developer</span></h1>
+        <h1 id="Shopify" style="display: none;">I am <span>Shopify Expert</span></h1>       
+        <button type="button" class="button button2" value="Click" onclick="switchVisible();">Find out more</button>
+    </header>
+    
+
+    <!-- Main element -->
+    <main>
+        <h2>About Me</h2>
+        <p>Hi! My name is Ned. I'm very passionate and dedicated to my work. My focus in development is the Web. I have
+            acquired the skills and knowledge necessary to make your project a success.</p>
+        <p>I am awesome Shopify Export & Developer. Every project for client is done with care.</p>        
+        
+        <h2>DIGITAL SKILLS</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Shopify</li>
+            <li>Wordpress</li>
+            <li>SEO optimization</li>
+            <li>SQL</li>
+            <li>Web API / C#</li>
+        </ol>
+
+        <!-- Flex Container -->
+        <h2>Services</h2>
+        <p>Quality services that I provide</p>   
+
+        <div class="flex-container row">
+            <div class="flex-item">
+                <div>                    
+                    <h3>Creative Design</h3>
+                    <p>
+                        Design a user interface that inspires customer
+                        interactions.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div>                    
+                    <h3>Web Development</h3>
+                    <p>
+                        Build business/personal websites and Emails that look great and
+                        produce desired results.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div>
+                    <h3>Online Footprint</h3>
+                    <p>
+                        Produce an online presence that you can be proud of.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div>                    
+                    <h3>Shopify Store Migrations</h3>
+                    <p>Migrate your existing store to shopify.</p>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div>                    
+                    <h3>Shopify Store Features</h3>
+                    <p>
+                        Develop Shopify store features that will customize your
+                        existing shopify store theme.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div>                    
+                    <h3>Shopify Theme Fix</h3>
+                    <p>
+                        Fix existing theme features, products, or store
+                        organization.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Portfolio part-->
+        <!-- Flex Container -->
+        <h2>Portfolio</h2>
+        <p>Some of projects done</p>
+        <div class="flex-container row">
+            <div class="flex-item project">
+                <div>                    
+                    <h3>Creative Design</h3>
+                    <img src="img/PortfolioProject.png">
+                    <a href="#">Website with HTML,CSS,Javascript</a>
+                </div>
+            </div>
+            <div class="flex-item project">
+                <div>                    
+                    <h3>Shopify eCommerce</h3>
+                    <img src="img/ShopfyProject.png">
+                    <a href="#">Shopify eCommerce Website</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Contact me form-->
+        <h2>Contact me</h2>
+        <p>Send me a message with the form below or you can reach me my GitHub account <a
+                href="https://github.com/eduprojectlifeproductivity"><img src="img/github.png" alt="contact"></a></p>
+        <form action="https://formspree.io/your@email.com" method="POST">
+            <ul class="wrapper">
+                <li class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li class="form-row">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li class="form-row">
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="form-row">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+
+    <!-- Footer element -->
+    <footer>
+        <p>Awesome Project Website Portfolio created with HTML, CSS & Javascript.</p>
+    </footer>
+
+</body>
+
+</html>
